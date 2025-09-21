@@ -21,3 +21,12 @@ git push -u origin "branch name"
 ADVANCE CODE
 
 git checkout -b branch_name(create new branch)
+git add .
+gti commit -m  "mssg"
+git push -u origin "branch name"
+compare and pull request
+create pull request
+merge pull request
+confirm merge
+
+git branch(to check how many branches are there)
