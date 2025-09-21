@@ -30,3 +30,4 @@ merge pull request
 confirm merge
 
 git branch(to check how many branches are there)
+git pull( gilil uppdate aaya codes pull chaithu systethilek edukunne process)
