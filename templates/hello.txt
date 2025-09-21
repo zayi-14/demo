@@ -1,0 +1,8 @@
+git init
+git add .
+git commit -m "my message"
+file Code
+git add .
+git push -u origin branchmanme
+git status
+git push orgin(second time onwards)
