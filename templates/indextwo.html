@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang='eng'>
+    <head>
+        <meta charset="utf-8">
+        <title>my template</title>
+    </head>
+    <body>
+        <h1>my template is working</h1>
+        <form action='/analyze' method="post">
+            <textarea name="text" style="width: 720px; height: 110px;"></textarea><br>
+            <input type="checkbox" name="removingpunc">removing punchuation <br>
+            <input type="checkbox" name="fullcaps">upper case <br>
+            <input type="checkbox" name="newlineremover">removing the newline <br>
+            <input type="checkbox" name="exspaceremover">removing the space <br>
+
+            
+            <button type="submit">Analyse the text</button>
+        </form>
+
+        <!-- {{name}} is a good guy from {{place}} -->
+    </body>
+</html>
