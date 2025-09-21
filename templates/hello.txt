@@ -6,3 +6,18 @@ git add .
 git push -u origin branchmanme
 git status
 git push orgin(second time onwards)
+
+
+
+in some second cases
+
+git init
+file Code
+git add .
+gti commit -m  "mssg"
+git push -u origin "branch name"
+
+
+ADVANCE CODE
+
+git checkout -b branch_name(create new branch)
