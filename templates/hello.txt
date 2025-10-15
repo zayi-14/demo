@@ -31,3 +31,78 @@ confirm merge
 
 git branch(to check how many branches are there)
 git pull( gilil uppdate aaya codes pull chaithu systethilek edukunne process)
+git merger master(coping  new branch to ol one (master))
+git remote remove orgin(aardelum project  edukachal avarde lilnk kalayan)
+
+
+
+
+
+Git Commands Explanations
+Git Commands Explained: A Comprehensive Guide for Beginners
+
+
+
+Welcome to the lecture on Git commands! In this article, we'll cover a range of Git commands, explaining their usage and providing examples to help you understand how to use them effectively. By the end of this lecture, you'll have a solid grasp of the fundamental Git commands and be able to manage your projects with confidence.
+
+
+
+git init
+
+Initializes a new Git repository. This command sets up all the necessary files and directories for a new repository. It is the first command you use when starting a new project with Git.
+
+git clone
+
+Copies an existing Git repository from a remote server to your local machine. It is the primary way to obtain a working copy of a repository for further development.
+
+
+
+git add
+
+Stages changes (new files, modifications, or deletions) in the working directory for the next commit. This command is used to add changes to the staging area, preparing them to be committed.
+
+
+
+git commit
+
+Records the staged changes in the repository with a message describing what was done. This command saves your changes to the repository history, creating a new commit.
+
+
+
+git status
+
+Displays the state of the working directory and staging area. It shows which changes have been staged, which have not, and which files are not being tracked by Git. This helps you keep track of your changes before committing.
+
+
+
+git log
+
+Shows the commit history for the current branch. It provides detailed information about each commit, including the commit hash, author, date, and commit message. This command helps you review the project's history.
+
+
+
+git branch
+
+Lists, creates, or deletes branches. This command is essential for managing different lines of development. It helps you organize your work and collaborate with others by using separate branches for different features or fixes.
+
+
+
+git checkout
+
+Switches branches or restores files in the working directory. It allows you to navigate between different branches or revert to previous versions of files, making it a versatile command for branch management and file restoration.
+
+
+
+git merge
+
+Integrates changes from one branch into another. This command combines the specified branch's history into the current branch, allowing you to incorporate changes made in other branches.
+
+
+
+git pull
+
+Fetches changes from a remote repository and merges them into the current branch. It is a combination of git fetch and git merge used to update your local branch with the latest changes from the remote repository.
+
+
+
+By mastering these Git commands, you'll be able to efficiently manage your projects, collaborate with others, and maintain a clean and organized codebase. Practice using these commands regularly to become proficient in version control with Git and GitHub. Happy coding!  

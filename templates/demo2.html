@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>online  survey</title>
+</head>
+<body>
+    <h1>costomere feedback survey</h1>
+    <p>please take a moment to complete the survey below</p>
+    <form action="#" method="post">
+        <label for="name">Your name</label>
+        <input type="text" name="name" id="name" required /><br><br>
+        <label for="age">Your age</label>
+        <input type="text" name="age" id="age" required /><br><br>
+        <label for="color">Favorite color</label>
+        <select name="color" id="name">
+            <option value="red">Red</option>
+            <option value="blue">Blue</option>
+            <option value="green">Green</option>
+            <option value="yellow">yellow</option>
+        </select><br><br>
+        <label for="feedback">Your feedback</label>
+        <textarea name="feedback" id="feedback" rows="4" cols="50"></textarea><br><br>
+        <input type="submit" value="submit">
+    </form>
+    <h3>instruction</h3>
+    <ul>
+        <li>fill in your name and age  in the first two fields</li>
+        <li>select your Favorite color form the dropdown list</li>
+        <li>provide the feed back in the textbox ad clck the submit button</li>
+    </ul>
+    <h2>Survey Responses</h2>
+<table border="1">
+    <tr>
+        <th>Name</th>
+        <th>Age</th>
+        <th>Favorite Color</th>
+        <th>Feedback</th>
+    </tr>
+    <tr>
+        <td>Alice</td>
+        <td>30</td>
+        <td>Blue</td>
+        <td>Great service! Keep it up.</td>
+    </tr>
+    <tr>
+        <td>Bob</td>
+        <td>25</td>
+        <td>Green</td>
+        <td>Would love to see more options.</td>
+    </tr>
+</table>
+</body>
+</html>
